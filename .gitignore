@@ -1,3 +1,6 @@
 vivado*
 !Rzz_CPU.tcl
-Rzz_CPU*
+Rzz_CPU/*
+!Rzz_CPU/Rzz_CPU.srcs/
+!Rzz_CPU/Rzz_CPU.xpr
+docs
