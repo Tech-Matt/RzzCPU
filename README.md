@@ -1,4 +1,4 @@
-Don't know what I am going to build yet but the general idea is:
+Objectives:
 
 - Make a RISC-V CPU
 - Implement a very small OS that can run on it (considering C or Rust)

@@ -1,12 +1,14 @@
 # RISC-V CPU Architecture Planning
 
-This document contains key architectural questions to help guide the design of your 32-bit RISC-V CPU. Answering these will help establish the fundamental structure of your hardware before you write the RTL.
+This document contains key architectural questions to help guide the design of a 32-bit RISC-V CPU. 
 
 ## 1. Memory Architecture
 *   **Harvard vs. Von Neumann:**
     *   *Harvard:* Separate instruction memory and data memory. Easier to design for single-cycle or basic pipelined processors because you can fetch an instruction and read/write data in the exact same clock cycle without contention.
     *   *Von Neumann:* Shared memory for instructions and data. More realistic for a full system, but requires a memory controller to arbitrate between instruction fetches and data accesses, often introducing stalls or requiring caches.
-    *   *Question:* Will you start with separate IMEM and DMEM for simplicity (Harvard-style microarchitecture), or immediately tackle a unified memory bus (Von Neumann)?
+
+    **Answer**: Von Neumann architecture, with BRAM with dual access memory (2 ports). IMEM will use read only port, while DMEM will have read/write accesses.
+   
 
 ## 2. Microarchitecture & Execution Strategy
 *   **Single-Cycle, Multi-Cycle, or Pipelined?**
