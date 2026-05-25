@@ -1,5 +1,20 @@
 # LOGBOOK
 
+
+## 25/05/26 Monday - Architectural choices pt.2
+
+**What do I want to do next?**
+- Read papers:
+  - Read the rocket core paper
+  - Read https://github.com/lowRISC/ariane
+  - Read some chapters from comp arch a quantitative approach
+
+**What did I do / learn?**
+- Finalized the architectural plan
+- Read SonicBOOM 
+
+
+---
 ## 22/05/26 Friday - Architectural choices
 
 **What do I want to do next?**
