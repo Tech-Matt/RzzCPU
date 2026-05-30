@@ -1,5 +1,17 @@
 # LOGBOOK
 
+## 30/05/26 Saturday - The Diagram
+
+**What I want to do next**
+- Finish drawing a first version of the diagram
+- Upload the diagram on github
+- Implement the instruction fetch stage
+
+**Plan for today**
+- [ ] Implement a detailed diagram of the stages of the CPU
+- [ ] Implement the Instruction Fetch stage
+
+
 
 ## 25/05/26 Monday - Architectural choices pt.2
 
